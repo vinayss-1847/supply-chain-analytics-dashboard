@@ -1,5 +1,12 @@
 # 📦 Supply Chain Analytics Dashboard using Power BI
 
+![Power BI](https://img.shields.io/badge/Tool-Power%20BI-F2C811?logo=powerbi&logoColor=black)
+![DAX](https://img.shields.io/badge/Language-DAX-0078D4)
+![Supply Chain](https://img.shields.io/badge/Domain-Supply%20Chain-2E8B57)
+![Forecasting](https://img.shields.io/badge/Feature-Forecasting-purple)
+![What If Analysis](https://img.shields.io/badge/Feature-What--If%20Analysis-blue)
+![Project Status](https://img.shields.io/badge/Status-Completed-success)
+
 ## 📌 Project Overview
 
 This project presents an end-to-end **Supply Chain Analytics Dashboard** built using Microsoft Power BI to monitor supply chain performance, optimize inventory, evaluate supplier risks, forecast demand, and perform scenario-based decision-making.
@@ -350,7 +357,12 @@ Supply-Chain-Analytics-Dashboard/
 # 👨‍💻 Author
 
 **Vinay S S**  
-Data Analytics | Business Intelligence | Power BI
+Aspiring Business Analyst | Power BI Developer | Data Analytics Enthusiast
+
+Connect With Me
+LinkedIn: https://www.linkedin.com/in/vinay-s-s-1a011325a/
+GitHub: https://github.com/vinayss-1847
+
 
 ---
 
