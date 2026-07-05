@@ -1,0 +1,11 @@
+WarehouseID,WarehouseName,Region,Capacity
+W001,Warehouse_1,South,68727
+W002,Warehouse_2,North,30126
+W003,Warehouse_3,West,57632
+W004,Warehouse_4,South,50530
+W005,Warehouse_5,West,69964
+W006,Warehouse_6,East,33368
+W007,Warehouse_7,West,33797
+W008,Warehouse_8,West,43718
+W009,Warehouse_9,West,64560
+W010,Warehouse_10,South,41053
