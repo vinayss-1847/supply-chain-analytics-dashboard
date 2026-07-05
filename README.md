@@ -5,11 +5,59 @@
 ![Supply Chain](https://img.shields.io/badge/Domain-Supply%20Chain-2E8B57)
 ![Forecasting](https://img.shields.io/badge/Feature-Forecasting-purple)
 ![What If Analysis](https://img.shields.io/badge/Feature-What--If%20Analysis-blue)
-![Project Status](https://img.shields.io/badge/Status-Completed-success)
+![Status](https://img.shields.io/badge/Status-Completed-success)
+![Level](https://img.shields.io/badge/Level-Advanced-red)
+
+---
+
+![Dashboard Cover](screenshots/page1-overview.jpg)
+
+## 🔗 Access Dashboard
+
+📥 **PBIX Source File:** [Download PBIX](dashboard/Supply%20Chain%20Analytics%20Dashboard.pbix)
+
+---
+
+## 🚀 Highlights
+
+- 📊 5 Interactive Dashboard Pages  
+- 📦 End-to-End Supply Chain Analytics Solution  
+- 📈 Demand Forecasting with Confidence Interval  
+- ⚠️ Supplier Risk Quadrant Analysis  
+- 🔮 What-If Scenario Simulation using DAX  
+- 📉 Inventory Optimization & Risk Monitoring  
+
+---
+
+## 📌 Project Metrics
+
+- 📄 6 Source Datasets
+- 📊 30+ DAX Measures
+- 📈 5 Dashboard Pages
+- 🔍 20+ Interactive Visuals
+- 📦 Multi-table Supply Chain Dataset
+
+---
+
+## 📚 Table of Contents
+
+- [Project Overview](#-project-overview)
+- [Business Problem](#-business-problem)
+- [Business Objectives](#-business-objectives)
+- [Dataset Overview](#-dataset-overview)
+- [Data Model](#-data-model)
+- [Tools & Technologies](#-tools--technologies)
+- [Dashboard Pages](#-dashboard-pages)
+- [KPI & DAX Highlights](#-key-kpis--dax-highlights)
+- [Key Business Insights](#-key-business-insights)
+- [Business Impact](#-business-impact)
+- [Future Enhancements](#-future-enhancements)
+
+---
 
 ## 📌 Project Overview
 
-This project presents an end-to-end **Supply Chain Analytics Dashboard** built using Microsoft Power BI to monitor supply chain performance, optimize inventory, evaluate supplier risks, forecast demand, and perform scenario-based decision-making.
+This project presents an end-to-end **Supply Chain Analytics and Risk Intelligence Dashboard** built using Microsoft Power BI to monitor supply chain performance, optimize inventory, evaluate supplier risks, forecast demand, and support scenario-based decision-making.
 
 The dashboard transforms raw supply chain transactional data into actionable business insights through interactive visual analytics, advanced DAX measures, forecasting, and what-if simulation.
 
@@ -27,27 +75,27 @@ This solution helps business stakeholders answer critical questions such as:
 
 Modern supply chains generate large volumes of operational data across:
 
-- Orders
-- Warehouses
-- Inventory
-- Suppliers
-- Shipments
+- Orders  
+- Warehouses  
+- Inventory  
+- Suppliers  
+- Shipments  
 
 Without centralized analytics, organizations struggle to:
 
-- Detect inventory imbalance
-- Identify supplier bottlenecks
-- Forecast seasonal demand
-- Reduce delivery delays
-- Plan for demand fluctuations
+- Detect inventory imbalance  
+- Identify supplier bottlenecks  
+- Forecast seasonal demand  
+- Reduce delivery delays  
+- Plan for demand fluctuations  
 
 These challenges often lead to:
 
-- Stockouts
-- Overstock situations
-- Increased holding costs
-- Delayed deliveries
-- Poor capacity planning
+- Stockouts  
+- Overstock situations  
+- Increased holding costs  
+- Delayed deliveries  
+- Poor capacity planning  
 
 ---
 
@@ -88,36 +136,36 @@ The dashboard follows a **star-schema inspired model**.
 - Orders
 
 ### Dimension Tables
-- Products
-- Suppliers
-- Warehouses
-- Inventory
-- Shipments
-- Calendar Table
+- Products  
+- Suppliers  
+- Warehouses  
+- Inventory  
+- Shipments  
+- Calendar Table  
 
 ### Relationships
-- One-to-many relationships between dimensions and fact table
-- Date table used for time intelligence and forecasting
-- Integrated model enables cross-functional analytics
+- One-to-many relationships between dimensions and fact table  
+- Date table used for time intelligence and forecasting  
+- Integrated model enables cross-functional analytics  
 
 ---
 
 ## 🛠 Tools & Technologies
 
 ### Analytics Stack
-- Microsoft Power BI
-- Power Query
-- DAX
-- CSV Datasets
+- Microsoft Power BI  
+- Power Query  
+- DAX  
+- CSV Datasets  
 
 ### Techniques Used
-- Data Cleaning & Transformation
-- Data Modeling
-- Advanced DAX Measures
-- Forecasting
-- Scenario Analysis
-- KPI Design
-- Interactive Dashboard Development
+- Data Cleaning & Transformation  
+- Data Modeling  
+- Advanced DAX Measures  
+- Forecasting  
+- Scenario Analysis  
+- KPI Design  
+- Interactive Dashboard Development  
 
 ---
 
@@ -130,17 +178,17 @@ The dashboard follows a **star-schema inspired model**.
 Provides high-level visibility into supply chain performance.
 
 ### KPIs
-- Total Revenue
-- Total Orders
-- Average Delay
-- Late Shipments
-- On-Time Delivery %
+- Total Revenue  
+- Total Orders  
+- Average Delay  
+- Late Shipments  
+- On-Time Delivery %  
 
 ### Visuals
-- Orders by Region
-- Monthly Revenue Trend
-- Supplier Delay Analysis
-- Warehouse Stock Distribution
+- Orders by Region  
+- Monthly Revenue Trend  
+- Supplier Delay Analysis  
+- Warehouse Stock Distribution  
 
 ### Screenshot
 ![Executive Overview](screenshots/page1-overview.jpg)
@@ -152,16 +200,16 @@ Provides high-level visibility into supply chain performance.
 Monitors stock distribution and inventory risks.
 
 ### KPIs
-- Stockouts
-- Risky SKUs
-- Overstock %
-- Healthy Stock %
+- Stockouts  
+- Risky SKUs  
+- Overstock %  
+- Healthy Stock %  
 
 ### Visuals
-- Inventory Status Distribution
-- Warehouse Risk Score
-- Risky Product Analysis
-- Overstock Product Table
+- Inventory Status Distribution  
+- Warehouse Risk Score  
+- Risky Product Analysis  
+- Overstock Product Table  
 
 ### Screenshot
 ![Inventory Dashboard](screenshots/page2-inventory.jpg)
@@ -173,22 +221,22 @@ Monitors stock distribution and inventory risks.
 Evaluates supplier reliability and risk.
 
 ### KPIs
-- Total Suppliers
-- Worst Delay
-- High Risk Suppliers
-- Average Supplier Delay
+- Total Suppliers  
+- Worst Delay  
+- High Risk Suppliers  
+- Average Supplier Delay  
 
 ### Visuals
-- Supplier Revenue Contribution
-- Supplier Delay Analysis
-- Supplier Risk Matrix
-- Supplier Risk Ranking
+- Supplier Revenue Contribution  
+- Supplier Delay Analysis  
+- Supplier Risk Matrix  
+- Supplier Risk Ranking  
 
 ### Risk Matrix Categories
-- Safe Suppliers
-- Strategic Suppliers
-- Delay Risk Suppliers
-- Critical Suppliers
+- Safe Suppliers  
+- Strategic Suppliers  
+- Delay Risk Suppliers  
+- Critical Suppliers  
 
 ### Screenshot
 ![Supplier Dashboard](screenshots/page3-supplier.jpg)
@@ -200,15 +248,15 @@ Evaluates supplier reliability and risk.
 Analyzes demand patterns and future demand behavior.
 
 ### KPIs
-- Total Units Sold
-- Average Monthly Demand
-- Peak Monthly Demand
-- Seasonal Spike %
+- Total Units Sold  
+- Average Monthly Demand  
+- Peak Monthly Demand  
+- Seasonal Spike %  
 
 ### Visuals
-- Demand Forecast with Confidence Interval
-- Top Products by Units Sold
-- Seasonal Revenue Pattern
+- Demand Forecast with Confidence Interval  
+- Top Products by Units Sold  
+- Seasonal Revenue Pattern  
 
 ### Screenshot
 ![Forecast Dashboard](screenshots/page4-forecast.jpg)
@@ -223,17 +271,17 @@ Simulates demand growth and supply chain stress.
 - Demand Increase Parameter (0–50%)
 
 ### KPIs
-- Scenario Demand
-- Additional Units Needed
-- Scenario Revenue
-- Inventory Gap
-- Scenario Risk
-- Inventory Status
+- Scenario Demand  
+- Additional Units Needed  
+- Scenario Revenue  
+- Inventory Gap  
+- Scenario Risk  
+- Inventory Status  
 
 ### Visuals
-- Risk Gauge
-- Supply Chain Risk Threshold Curve
-- Scenario KPI Cards
+- Risk Gauge  
+- Supply Chain Risk Threshold Curve  
+- Scenario KPI Cards  
 
 ### Screenshot
 ![Scenario Dashboard](screenshots/page5-scenario.jpg)
@@ -269,9 +317,9 @@ Inventory Gap =
 
 Composite supplier risk score based on:
 
-- Delivery delay
-- Order volume
-- Revenue contribution
+- Delivery delay  
+- Order volume  
+- Revenue contribution  
 
 Used to classify suppliers into risk quadrants.
 
@@ -280,24 +328,24 @@ Used to classify suppliers into risk quadrants.
 # 🔍 Key Business Insights
 
 ### Executive Overview
-- Q4 revenue nearly doubled due to seasonal demand surge
-- West region contributes ~50% of total orders
+- Q4 revenue nearly doubled due to seasonal demand surge  
+- West region contributes ~50% of total orders  
 
 ### Inventory
-- Significant SKU overstock increases holding costs
-- Multiple products require immediate replenishment
+- Significant SKU overstock increases holding costs  
+- Multiple products require immediate replenishment  
 
 ### Supplier
-- Supplier S007 shows severe delay risk
-- Majority of suppliers remain low-risk and strategic
+- Supplier S007 shows severe delay risk  
+- Majority of suppliers remain low-risk and strategic  
 
 ### Demand Forecast
-- Demand spikes sharply during Q4 seasonality
-- Product P029 drives highest unit demand
+- Demand spikes sharply during Q4 seasonality  
+- Product P029 drives highest unit demand  
 
 ### Scenario Analysis
-- Demand growth beyond 15–20% significantly increases supply chain risk
-- Inventory buffer becomes critically low after threshold breach
+- Demand growth beyond 15–20% significantly increases supply chain risk  
+- Inventory buffer becomes critically low after threshold breach  
 
 ---
 
@@ -305,11 +353,11 @@ Used to classify suppliers into risk quadrants.
 
 This dashboard enables supply chain managers and business leaders to:
 
-- Proactively monitor operational bottlenecks
-- Optimize inventory allocation
-- Reduce stockout risk
-- Improve supplier performance management
-- Prepare for future demand spikes using scenario simulation
+- Proactively monitor operational bottlenecks  
+- Optimize inventory allocation  
+- Reduce stockout risk  
+- Improve supplier performance management  
+- Prepare for future demand spikes using scenario simulation  
 
 The solution improves decision-making by converting operational data into strategic intelligence.
 
@@ -319,11 +367,11 @@ The solution improves decision-making by converting operational data into strate
 
 Potential future improvements include:
 
-- Real-time ERP integration
-- Machine learning-based demand forecasting
-- Automated supplier risk alerts
-- Inventory replenishment recommendations
-- AI-driven anomaly detection
+- Real-time ERP integration  
+- Machine learning-based demand forecasting  
+- Automated supplier risk alerts  
+- Inventory replenishment recommendations  
+- AI-driven anomaly detection  
 
 ---
 
@@ -345,11 +393,11 @@ Supply-Chain-Analytics-Dashboard/
 │   └── warehouses.csv
 │
 └── screenshots/
-    ├── page1-overview.png
-    ├── page2-inventory.png
-    ├── page3-supplier.png
-    ├── page4-forecast.png
-    └── page5-scenario.png
+    ├── page1-overview.jpg
+    ├── page2-inventory.jpg
+    ├── page3-supplier.jpg
+    ├── page4-forecast.jpg
+    └── page5-scenario.jpg
 ```
 
 ---
@@ -357,12 +405,11 @@ Supply-Chain-Analytics-Dashboard/
 # 👨‍💻 Author
 
 **Vinay S S**  
-Aspiring Business Analyst | Power BI Developer | Data Analytics Enthusiast
+Aspiring Business Analyst | Power BI Developer | Data Analytics Enthusiast  
 
-Connect With Me
-LinkedIn: https://www.linkedin.com/in/vinay-s-s-1a011325a/
-GitHub: https://github.com/vinayss-1847
-
+### Connect With Me
+- GitHub: [Vinay S S](https://github.com/vinayss-1847)
+- LinkedIn: [Vinay S S](https://www.linkedin.com/in/vinay-s-s-1a011325a/)
 
 ---
 
